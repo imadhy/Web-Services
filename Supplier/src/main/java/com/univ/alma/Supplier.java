@@ -6,7 +6,6 @@ import java.util.List;
 public class Supplier {
 	
 	private List<Product> products;
-	private List<Product> cart;
 	
 	public Supplier() {
 		
@@ -17,31 +16,9 @@ public class Supplier {
 		products.add(new Product(4, "Meizu Pro 5", 0, 500, "meizu.jpg"));
 	}
 	
-	public boolean addToCart(Product addedProduct) {
-		this.cart = new ArrayList<Product>();
-		
-		if(addedProduct.getQuantity() == 0)
-			return false;
-		else {
-			cart.add(addedProduct);
-			return true;
-		}
-	}
-	
-	public int cartItems() {
-		return this.cart.size();
-	}
-	
-	public List<Product> GetCartList() {
-		return this.cart;
-	}
-	
-	public void emptyCart() {
-		this.cart.clear();
-	}
-	
 	public List<Product> GetProductsList() {
 		
 		return this.products;
 	}
+	
 }

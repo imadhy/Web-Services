@@ -6,7 +6,6 @@ com/univ/alma/SupplierStub$GetCartList.class
 com/univ/alma/SupplierStub$GetCartList$Factory.class
 com/univ/alma/SupplierStub$1.class
 com/univ/alma/SupplierStub$CartItems$Factory.class
-com/univ/alma/App.class
 com/univ/alma/ServiceBankStub$PayTransactionResponse$Factory.class
 com/univ/alma/SupplierStub$GetProductsListResponse.class
 com/univ/alma/ServiceBankStub$2.class
